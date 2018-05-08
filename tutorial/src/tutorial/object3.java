@@ -79,8 +79,8 @@ public class object3 {
 		 * [2] 메소드 예제
 		 */
 		
-		cal.static_static(); //인스턴스로 클래스(정적)메소드에 접근
-		cal.static_instance(); //인스턴스로 클래스(정적)메소드에 접근
+		//cal.static_static(); //인스턴스로 클래스(정적)메소드에 접근
+		//cal.static_instance(); //인스턴스로 클래스(정적)메소드에 접근
 		cal.instance_static(); //인스턴스로 인스턴스 메소드에 접근
 		cal.instance_instance(); //인스턴스로 인스턴스 메소드에 접근
 		
