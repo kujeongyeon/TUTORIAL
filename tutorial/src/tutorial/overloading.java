@@ -44,29 +44,34 @@ class Calculator5 {
 	}
 }
 
-	class SubtractCalculator extends Calculator5 {
-
-		public SubtractCalculator(int left, int right) {
-			super(left, right);
+class SubtractCal extends Calculator5 {
 		
+		
+		public SubtractCal(int left, int right) {
+		super(left, right);
+	}
+
+		public void sum (String str) {
+			System.out.println(this.left + this.right + str);
 		}
 		
-		
-		public void sum (String str) {
-			System.out.println(this.left + this.right + "str");
+		public void sum (String tt , String tr) {
+			System.out.println(this.left + this.right);
 		}
 		
 		// 상속에서도 오버라이딩은 허용된다.
 		 
 	
 	}
-
 public class overloading {
 
 	public static void main(String[] args) {
 		
 		Calculator5 c1 = new Calculator5 (20,30,40);
 		c1.sum(20);
+		
+		SubtractCal c2 = new SubtractCal (20, 30);
+		c2.sum("gg");
 
 		//SubtractCalculator c2 = new SubtractCalculator(20,30);
 		//c2.sum();

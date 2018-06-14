@@ -24,9 +24,8 @@ public class method4 {
 		
 		System.out.println(member[0]); 
 		
-		int i ;
-		
-		for (i=0; i < member.length; i++) { //member.length 은 member 안에 들어간 변수의 갯수임 3개 들어있으니까 3개
+		for (int i=0; i < member.length; i++) { 
+			//member.length 은 member 안에 들어간 변수의 갯수임 3개 들어있으니까 3개
 			
 			System.out.println(member[i]);
 			
